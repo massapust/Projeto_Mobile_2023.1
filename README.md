@@ -69,7 +69,7 @@ Abrangência e sistemas relacionados	C1. 6
 
 Descrição dos usuários	C1. 6
 1.	Jovens a partir dos 16 anos	C1. 6
-2.	Deficientes (PCD)	C1. 6
+2. Doador	C1. 6
 3.Doadores de sangue	C1.6
 
 <h3>CAPÍTULO 2 - REQUISITOS FUNCIONAIS (CASOS DE USO)	C2. 7</h3>
