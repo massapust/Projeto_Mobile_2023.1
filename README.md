@@ -12,19 +12,50 @@ Lucas Batista da Silva – Desenvolvedor – Matrícula:01334252<br>
 katia pereira da silva - Desenvolvedor - Matrícula: 01527087
 <hr> </hr>
 <h1>Requisitos Funcionais <h1><br>
- <h4>Cadastro</h3>
+ <h3>Cadastro</h3>
 - O sistema deve permitir o cadastro de novos doadores de sangue.
 - Os dados a serem cadastrados serão: nome completo, data de nascimento, telefone, email, tipo sanguíneo e senha de acesso.
 - O sistema deve verificar se o doador já está cadastrado antes de permitir um novo cadastro com mesmo email.
 - O sistema deve validar os dados inseridos no cadastro, garantindo que todos os campos obrigatórios estejam preenchidos e que as informações inseridas sejam válidas.<br>
 <h3>Login</h3>
- O doador ira 
+ 
 
-Podem doar sangue pessoas entre 16 e 69 anos e que estejam pesando mais de 50kg. 
-Além disso, é preciso apresentar documento oficial com foto
-e menores de 18 anos
-só podem doar com consentimento formal dos responsáveis.
+para realizar o login o doar deve inserir email e senha para a autenticação do email e senha para ter acesso ao aplicativo
+
+<h3>Recuperar senha</h3>
+
+PARA RECUPERAR SENHA O DOADOR DEVE INSERIR O EMAIL NA CONTA CADASTRADA NO QUAL O USUARIO IRAR RECEBER UM EMAIL PARA REDIFINIR SENHA
+
+
+<h3>REDIFINIR SENHA</h3>
+
+USUARIO APOIS CLICLAR NO LINK SERAR DIRECIONADO PARA PAGINA ONDE IRA REDIFINIR SUA SENHA
+
+<h3>MENU PRINCIPAL</h3>
+
+contem tres opções com funcionalidade, Mudar cadastro,pedir doação e Mensagens.
+alterar cadastro
+
+- Os campos disponíveis para alteração serão: nome completo, data de nascimento, telefone, tipo sanguíneo,senha e email
+
+<h3>Pedi Doação</h3>
+
+- O sistema deve permitir que doadores cadastrados compartilhem pedidos de doação de sangue.
+
+- Os dados a serem cadastrados serão: nome completo, nome do paciente , hospital e setor de internação, tipo sanguíneo, mensagem
+
+- O sistema deve validar os dados inseridos no cadastro, garantindo que todos os campos obrigatórios estejam preenchidos e que as informações inseridas sejam válidas.
+
+
+<h3>Consulta de Locais de Doação</h3>
+
+- O sistema deve permitir a busca de Locais de Doação cadastrados por nome.
+
+<h3>Local Doação</h3>
+
+- O resultado da busca deve exibir todos os dados do local de doação correspondente,contendo endereço data e horas de atendimento.
 <hr> </hr>
+<H1>UML</H1>
 
 ![UML_Horadedoar](https://user-images.githubusercontent.com/112334078/232338322-9a884cce-6e1c-4560-92bd-12fff22989f4.jpg)
 
@@ -32,15 +63,6 @@ só podem doar com consentimento formal dos responsáveis.
 
 
 
-<hr></hr>
-Dúvidas, críticas e sugestões devem ser encaminhadas por escrito para o seguinte endereço postal:
-especifique o endereço para correspondência: Avenida Antônio Cabral De Souza, 350 - Vila Torres Galvão – Paulista-PE – 53403-610.
-Ou para o seguinte endereço eletrônico:
-01528401@sempreuninassau.com.br
-Recomendamos que o assunto seja identificado com o título desta obra. Alertamos ainda para a importância de se identificar o endereço e o nome completos do remetente para que seja possível o envio de respostas.
-
-<hr> </hr>
-<b>Hora de Doar são marcas registradas da  WEB 
 <hr> </hr>
 
 
@@ -51,7 +73,7 @@ Recomendamos que o assunto seja identificado com o título desta obra. Alertamos
 
 
 
-<h3>.1	Detalhes</h3>
+<h3>1	Detalhes</h3>
 Desenvolvido por Lucas Batista:
  Logo Tipo do aplicativo Hora de doar, onde se trata de dois Emojis que são:Duas mão segurando um coração. 
 
