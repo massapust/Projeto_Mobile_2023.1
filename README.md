@@ -6,17 +6,27 @@
 
 
 <hr></hr>
-Equipe Responsável pela Elaboração
-Lucas Batista da Silva – Desenvolvedor – Matrícula:01334252
+<h3>Equipe Responsável pela Elaboração</h3>
+<br>
+Lucas Batista da Silva – Desenvolvedor – Matrícula:01334252<br>
 katia pereira da silva - Desenvolvedor - Matrícula: 01527087
 <hr> </hr>
-<h1>Público Alvo</h1>
+<h1>Requisitos Funcionais <h1><br>
+ <h4>Cadastro</h3>
+- O sistema deve permitir o cadastro de novos doadores de sangue.
+- Os dados a serem cadastrados serão: nome completo, data de nascimento, telefone, email, tipo sanguíneo e senha de acesso.
+- O sistema deve verificar se o doador já está cadastrado antes de permitir um novo cadastro com mesmo email.
+- O sistema deve validar os dados inseridos no cadastro, garantindo que todos os campos obrigatórios estejam preenchidos e que as informações inseridas sejam válidas.<br>
+<h3>Login</h3>
+ O doador ira 
+
 Podem doar sangue pessoas entre 16 e 69 anos e que estejam pesando mais de 50kg. 
 Além disso, é preciso apresentar documento oficial com foto
 e menores de 18 anos
 só podem doar com consentimento formal dos responsáveis.
 <hr> </hr>
 
+![UML_Horadedoar](https://user-images.githubusercontent.com/112334078/232338322-9a884cce-6e1c-4560-92bd-12fff22989f4.jpg)
 
 
 
