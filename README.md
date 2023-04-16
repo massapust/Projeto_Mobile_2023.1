@@ -5,20 +5,7 @@
 
 
 
-
-
-
-
-
-
-
-Versão 1.0 - abril de 2023
- 
-
-
-<b>Ficha Técnica<b>
-<hr> </hr>
-
+<hr></hr>
 Equipe Responsável pela Elaboração
 Lucas Batista da Silva – Desenvolvedor – Matrícula:01334252
 katia pereira da silva - Desenvolvedor - Matrícula: 01527087
@@ -35,13 +22,7 @@ só podem doar com consentimento formal dos responsáveis.
 
 
 
-
-
-
-
-Versão 1.0 - Paulista, abril de 2023
- <hr> </hr>
-
+<hr></hr>
 Dúvidas, críticas e sugestões devem ser encaminhadas por escrito para o seguinte endereço postal:
 especifique o endereço para correspondência: Avenida Antônio Cabral De Souza, 350 - Vila Torres Galvão – Paulista-PE – 53403-610.
 Ou para o seguinte endereço eletrônico:
@@ -142,165 +123,7 @@ Referências....................................................................
 
     Este documento especifica o sistema, Hora de Doar pela tal como fornecendo aos desenvolvedores as informações necessárias para o projeto, implementação e metodologia ágil, assim como para a realização dos testes e homologação do sistema.
 Visão geral deste documento	
-Esta introdução fornece as informações necessárias para fazer um bom uso deste documento, explicitando seus objetivos e as convenções que foram adotadas no texto, além de conter uma lista de referências para outros documentos relacionados. As demais seções apresentam a especificação do sistema Hora de Doar e estão organizadas como descrito abaixo.
-
-•	Seção 1 – Descrição geral do sistema: 
-	Aplicativo voltado para doadores de sangue e pessoas que necessitam de sangue. Com foco em facilitar no recebimento de sangue.  
-•	Seção 2 – Requisitos funcionais (casos de uso): 
-	Aplicativo voltado para doadores e pessoas que necessitam de recebimento de sangue, sem a necessidade de ficar procurando laboratório. 
-•	Seção 3 – Requisitos não funcionais:
-	Login com acesso do E-mail do doador e sua senha. Que será no mínimo 8 dígitos contendo caracteres especiais, números, letras. Com o acesso o usuário receberá um e-mail de aviso que, sua conta foi criada e está sendo acessada no aplicativo Hora de Doar.
-Seção 4 – Descrição da interface com o usuário: apresenta desenhos, figuras ou  
-rascunhos de telas do sistema.
-
-<hr> </hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h1>Capítulo	1</h1>
-Descrição geral do sistema
-
-O Sistema será desenvolvido pela Grupo Web com a linguagem: kotlin, UML Para parte do design serão utilizadas as ferramentais de desenvolvimento: Canvas, Figma. Com nosso maior foco a experiência do usuário e sua usabilidade.
-Abrangência e sistemas relacionados	
-•	Abrange:
-Ao iniciar o aplicativo uma tela de login, sendo totalmente independente de outro sistema. Também contendo uma parte de pesquisa para saber o endereço do laboratório mais próximo. 
-•	Não abrange:
-Não tendo comunicação com o outros usuário.
-
-Descrição dos usuários	
-
-<h2>.1	Jovens a partir dos 16 anos.</h2>
-
-Usuários a partir dos 16 anos, com acompanhamento de um adulto já poderão fazer a pesquisa e ir até o laboratório mais próximo doar.
-
-
-
-
-   <h2> .2 Adultos.</h2>
-				Adulto que desejarem utilizar o aplicativo, tem a facilidade de procurar o laboratório mais próximo para a doação de sangue para sua escolha. 
-
-		
-
-
-
-
-
-
-
-
-
-
-
-<h1>Capítulo	2</h1>
-Requisitos funcionais (casos de uso)
-
-
-<h1>Interfaces	Agrupada</h1>
-
- <h3>Tela de Acesso</h3>
-		Página onde o doador portará acesso ao aplicativo.
-
-Prioridade:        📌   Essencial	•    Importante	•   Desejável
-
-Entradas e pré-condições: 
-Se já tiver feito o cadastro no sistema, click no botão login e apenas coloque o E-mail é sua senha, . Já se não existir cadastro o indivíduo precisará realizar o cadastro onde será pedido: E-mail, CPF, Data de nascimento, Tipo Sanguíneo, Nome Completo, Telefone e uma senha para acesso. 
-
- 
-
-<h3>Categoria do Doador.</h3>
-
-		Quando o usuário completar a parte inicial do aplicativo, após iniciar  ele escolhera se deseja pedir doação ou ver o local mais próximo, aparecerá uma página onde irá conter todas as opções desejada que temos disponível.
-
-
-<h3>Prioridade:</h3>        📌   Essencial	•    Importante	•   Desejável
-
-Entradas e pré-condições: 
-		Ele precisará ter feito o cadastro de usuário. 
-
-Saídas e pós condições: 
-		Depois que ele acessar o aplicativo, aparecerá a tela onde ele procurar o lugar mais próximo ou alterar seu cadastro etc.
-
- 
-
-
-<h1>Capítulo	3</h1>
-Requisitos não funcionais
-
-<h3>Usabilidade</h3>	
-Esta seção descreve os requisitos não funcionais associados à facilidade de uso da interface com o usuário e documentação do sistema.
-
-<h3> Verificação de 2 etapas</h3>
-		Se for ter acesso a outro dispositivo, irá receber um e-mail de aviso de segurança no e-mail informada na hora do cadastro da conta.
-
-Prioridade:        •    Essencial	  📌  Importante	•   Desejável
-
-Caso(s) de uso associado(s): Segurança do aplicativo. 
-
-<h3>Notificações e sugestões.</h3>
-		
-		Será notificado Sugestões de pessoas pedindo doação iniciantes no aplicativo.
-
-Prioridade:        •    Essencial	•    Importante	  📌 Desejável
-
-<h3>Caso(s) de uso associado(s):</h3> Notificações do aplicativo. 
-
-<h1>Confiabilidade</h1>	
-
-<h3> Falha de conexão </h3>
-		Falhas na conexão de rede interferindo na Hora de Doar ou até mesmo na utilização do aplicativo. 
-
-<h1>Desempenho</h1>
-
-<h3> Local de Doar.</h3>
-	
-	Caso o endereço do laboratório estiver desatualizado manda um email informando .
-
-
-
-
-<h1>Distribuição</h1>
-
-<h3>Versões Atualizadas</h3>
-
-	Aplicativo iniciará com a versão beta como protótipo para validação do cliente, posteriormente, após a validação seguirá para os aplicativos de serviços tais como: Apple Store e Play Store.
-
-	
-<h1>Padrões</h1>
-
-<h3>Versões.</h3>
-	
-		Para o uso do aplicativo deverá conter todas as informações não seno necessária coloca novamente os mesmos dados pessoais do usuário. 
-Hardware e software	
-
-[NR007] Dispositivos
-
-		Podendo ter o acesso de vários dispositivos diferentes tais como: Tablet, Smartphone, Computador.  Tendo Capacidade de hardware com 2 giga de Memória RAM, e 1 giga de memória.   No Software: IOS, Android. 
-
-
-<h1>Capítulo	4</h1>
-Descrição da interface com o
-usuário
-
-Cores Utilizadas no projeto:
- #FF8181– Vermelho
-#FF8181– Vermelho
-#FF8181 – Vermelho
-#FF8181 - Vermelho
-#F4E8F1 – Nude
+Esta introdução fornece as informações necessárias para fazer um bom uso deste documento, explicitando seus objetivos e as convenções que for
 
   <h1> Logo Tipo</h1>
 
