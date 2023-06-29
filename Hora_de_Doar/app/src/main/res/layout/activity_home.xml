@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4A8A8"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/alizarin"
+        android:gravity="center"
+        android:text="Hora de Doar"
+        android:textColor="@color/white"
+        android:textSize="39dp"
+        android:textStyle="bold"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="370dp"
+        android:backgroundTintMode="src_over"
+        app:srcCompat="@drawable/setavoltar"
+        android:background="@color/white"
+        android:hapticFeedbackEnabled = "@dimen/material_emphasis_medium"
+
+
+        />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/cooracao"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/white"
+        android:padding="@dimen/cardview_default_radius"
+        android:gravity="center"
+        android:text="@string/quais_s_o_os_requisitos_para_doa_o_de_sangue_podem_doar_sangue_pessoas_entre_16_e_69_anos_e_que_estejam_pesando_mais_de_50kg_al_m_disso_preciso_apresentar_documento_oficial_com_foto_e_menores_de_18_anos_s_podem_doar_com_consentimento_formal_dos_respons_veis"
+        android:textStyle="bold"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id = "@+id/relativelayout"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="20dp"
+        >
+
+
+    <Button
+        android:id="@+id/mensagens"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Mudar Cadastro"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/pedirdoacao"
+
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Pedir Doação"
+        android:paddingHorizontal="30dp"
+        android:layout_marginStart="260dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        />
+
+
+       <Button
+        android:id = "@+id/perfil"
+
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Perfil"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        />
+
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icone" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:text="       Pesquisar Laboratorio"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+</LinearLayout>
