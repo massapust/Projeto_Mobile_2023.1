@@ -3,6 +3,9 @@ package com.horadedoar.api.model
 import com.google.gson.annotations.SerializedName
 import java.util.Date
 
+/*
+    Doador Model, responsavel em disponibilizar as propriedades de um Doador
+ */
 data class DoadorModel(
     @SerializedName("nome_completo")
     var nome_completo: String,

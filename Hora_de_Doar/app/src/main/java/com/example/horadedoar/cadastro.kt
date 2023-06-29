@@ -35,13 +35,12 @@ class cadastro : AppCompatActivity() {
 
         var retorno = service.incluirDoador(model)
 
-        if(retorno != null){
             if(retorno?.value?.isError == false){
                 Toast.makeText(getApplicationContext(),"Cadastrado com sucesso!",Toast.LENGTH_LONG).show();
             }else{
                 Toast.makeText(getApplicationContext(),"Erro ao cadastrar o doador!",Toast.LENGTH_LONG).show();
             }
-        }
+
     }
 
     fun inserirDoador() {
@@ -68,12 +67,15 @@ class cadastro : AppCompatActivity() {
 
         var retorno = service.incluirDoador(model)
 
-        if(retorno != null){
-            if(retorno?.value?.isError == false){
-                Toast.makeText(getApplicationContext(),"Cadastrado com sucesso!",Toast.LENGTH_LONG).show();
-            }else{
-                Toast.makeText(getApplicationContext(),"Erro ao cadastrar o doador!",Toast.LENGTH_LONG).show();
-            }
+        if (retorno?.value?.isError == false) {
+            Toast.makeText(getApplicationContext(), "Cadastrado com sucesso!", Toast.LENGTH_LONG)
+                .show();
+        } else {
+            Toast.makeText(
+                getApplicationContext(),
+                "Erro ao cadastrar o doador!",
+                Toast.LENGTH_LONG
+            ).show();
         }
     }
 }
